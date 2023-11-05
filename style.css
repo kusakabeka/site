@@ -1,54 +1,3 @@
-@font-face {
-    font-family: tnr;
-    src: url(TNR.ttf);
-}
-
-body {
-    margin: 0;
-    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background: black;
-    letter-spacing: -0.003em;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-* {
-    color: white !important;
-}
-
-button {
-    background: black;
-    font-size: 16px;
-    letter-spacing: -0.003em;
-    line-height: 24px;
-}
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-
-img {
-    width: 100px;
-    margin-left: 110px;
-    border-radius: 50%;
-    vertical-align: middle;
-    /* Выравнивание изображения по вертикали */
-}
-
-p {
-    font-size: 20px;
-    margin-right: 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 363px;
-
-}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* Box sizing rules */
@@ -341,3 +290,56 @@ select {
     }
 }
 /* BREAKPOINTS */
+
+
+@font-face {
+    font-family: tnr;
+    src: url(TNR.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: black;
+    letter-spacing: -0.003em;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+* {
+    color: white !important;
+}
+
+button {
+    background: black;
+    font-size: 16px;
+    letter-spacing: -0.003em;
+    line-height: 24px;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+img {
+    width: 100px;
+    margin-left: 110px;
+    border-radius: 50%;
+    vertical-align: middle;
+    /* Выравнивание изображения по вертикали */
+}
+
+p {
+    font-size: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 363px;
+
+}
