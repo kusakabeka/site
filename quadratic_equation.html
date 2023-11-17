@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Quadratic Equation</title>
+    <link rel="stylesheet" href="style/other_style.css" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+</head>
+
+<body>
+    <div align="center">
+        <b>Решение квадратного уравнения a&middot;x&sup2; + b&middot;x + c = 0.</b>
+        <form name="square" action="javascript:square_equation()">
+            a <input name="square_a" type="text" value="1" size="4">
+            b <input name="square_b" type="text" value="2" size="4">
+            c <input name="square_c" type="text" value="1" size="4">
+            <input type="submit" value="посчитать">
+        </form>
+        Решение: <span id="square_sol">Введите коэффициенты и нажмите "посчитать"</span>
+    </div>
+
+    <script src="script/quadratic_equation.js"></script>
+</body>
+
+</html>
